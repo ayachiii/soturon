@@ -21,4 +21,4 @@ class Constants:
     survey_items = ["difficulty", "fast", "fulfillment",
                     "absorb", "questionnaire_average"]
 
-    path_to_matlab_repository_folder = "/Users/miyakooti/repositories/arai_MATLAB_program"
+    path_to_matlab_repository_folder = "/content/soturon"
