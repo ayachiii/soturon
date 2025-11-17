@@ -13,7 +13,8 @@ mat_to_csvフォルダは、SSSEP~.mat(生データ)から、心電図を算出�
 実行結果は、ECG_kumakura_boredom.csvが出力される。場所は、csv->0_kumakura->ECG
 
 export_rr_interval自分で作成は、ECG_人名_フェーズ.csvからrr_interval_人名_フェーズ.csvに書き換える作業をするpythonコード
-（constants.pyはpath_to_matlab_repository_folder = "/content/soturon"を変更)
+
+constants.pyはジュピターノートブックでは作業可能であるが、colabでは出来なさそう・・・（constants.pyはpath_to_matlab_repository_folder = "/content/soturon"を変更)
 
 # Kubiosについて
 import直後の画面のStartとlengthはどのように決定しているのか？
