@@ -14,6 +14,9 @@ mat_to_csvフォルダは、SSSEP~.mat(生データ)から、心電図を算出�
 
 export_rr_interval自分で作成は、ECG_人名_フェーズ.csvからrr_interval_人名_フェーズ.csvに書き換える作業をするpythonコード
 
+export_HRV_parameters自作.ipynbは、ECG_人名_フェーズ.csvから人名_HRV.csvに書き換える作業をするpythonコード
+
+
 constants.pyはジュピターノートブックでは作業可能であるが、colabでは出来なさそう・・・（constants.pyはpath_to_matlab_repository_folder = "/content/soturon"を変更)
 
 # Kubiosについて
