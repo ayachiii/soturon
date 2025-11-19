@@ -39,9 +39,6 @@ csvの一人分を全部揃わせること
 
 ・HRV_and_PLI.csv              (←HRV、PLI、アンケート、kubios_HRVをつなげること)
 
-・kubios_HRV.csv
-
-・qustionnaire.csv
 
 
 
