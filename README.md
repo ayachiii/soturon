@@ -1,10 +1,10 @@
 # 卒論解析用のプログラムやデータを保存するリポジトリ
 # EGG data
-mat_to_csvフォルダは、SSSEP~.mat(生データ)から、各端子のPLIを算出したcsvファイルの出し方。
+preprocessingフォルダは、SSSEP~.mat(生データ)から、各端子のPLIを算出したcsvファイルの出し方。
 実行結果は、PLI_0_kumakura_rest.csv,concentration_1_kumakura_practice.csvが出力される。場所は、csv->0_kumakura->PLIdata
 
 
-PLI_Analysis.ipynbはmat_to_csvで作成したcsvファイルを使って一秒ごとのPLIを算出して描画するプログラム。
+PLI_Analysis.ipynbはpreprocessingで作成したcsvファイルを使って一秒ごとのPLIを算出して描画するプログラム。
 PLI_Analysis_tetris.ipynbはtetrisのPLI描画プログラム。PLI_Analysis_image.ipynbはイメージトレーニングのPLI描画プログラム。
 
 
@@ -12,7 +12,7 @@ export_mean_PLI_自作.ipynbは,5つ(rest,boredom,flow,fow_ultra,overload)のPLI
 
 
 # ECG data
-mat_to_csvフォルダは、SSSEP~.mat(生データ)から、心電図を算出したcsvファイルの出し方。
+preprocessingフォルダは、SSSEP~.mat(生データ)から、心電図を算出したcsvファイルの出し方。
 実行結果は、ECG_kumakura_boredom.csvが出力される。場所は、csv->0_kumakura->ECG
 
 export_rr_interval自分で作成は、ECG_人名_フェーズ.csvからrr_interval_人名_フェーズ.csvに書き換える作業をするpythonコード
